@@ -13,7 +13,7 @@
     <h2>Featured Listings</h2>
     <div class="property-container">
       <div class="property-card">
-        <img src="assets/images/house1.jpg" alt="House 1">
+        <img src="assets/images/house1.png" alt="House 1">
         <h3>Luxury Villa</h3>
         <p>Karachi • PKR 12,500,000</p>
       </div>
