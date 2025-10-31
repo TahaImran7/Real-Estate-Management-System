@@ -9,20 +9,20 @@ if (empty($_SESSION['user_id']) || ($_SESSION['role'] ?? '') !== 'admin') {
     exit;
 }
 
-// Sample stats (count properties, messages)
+// Count properties
 $countProperties = 0;
-$countMessages = 0;
-
 $res = mysqli_query($conn, "SELECT COUNT(*) AS c FROM properties");
 if ($res) {
     $row = mysqli_fetch_assoc($res);
     $countProperties = $row['c'] ?? 0;
 }
 
-$res = mysqli_query($conn, "SELECT COUNT(*) AS c FROM messages");
+// Count inquiries
+$countInquiries = 0;
+$res = mysqli_query($conn, "SELECT COUNT(*) AS c FROM inquiries");
 if ($res) {
     $row = mysqli_fetch_assoc($res);
-    $countMessages = $row['c'] ?? 0;
+    $countInquiries = $row['c'] ?? 0;
 }
 ?>
 
@@ -34,15 +34,20 @@ if ($res) {
     <div class="stat-card">
       <h3>Total Properties</h3>
       <p><?= $countProperties ?></p>
+      <a href="manage_property.php" class="btn-small">Manage Properties</a>
     </div>
 
     <div class="stat-card">
-      <h3>Messages / Inquiries</h3>
-      <p><?= $countMessages ?></p>
+      <h3>Total Inquiries</h3>
+      <p><?= $countInquiries ?></p>
+      <a href="manage_inquiries.php" class="btn-small">View Inquiries</a>
     </div>
   </div>
 
-  <p><a href="add_property.php" class="btn">Add Property</a> &nbsp; <a href="../logout.php" class="btn">Logout</a></p>
+  <div class="admin-actions">
+    <a href="add_property.php" class="btn">Add New Property</a>
+    <a href="../logout.php" class="btn">Logout</a>
+  </div>
 </main>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>
