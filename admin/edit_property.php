@@ -127,7 +127,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <button type="submit" class="btn-primary">Save Changes</button>
   </form>
 
-  <p><a href="manage_properties.php" class="btn">← Back to Manage Properties</a></p>
+  <p><a href="manage_property.php" class="btn">← Back to Manage Properties</a></p>
 </main>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>
