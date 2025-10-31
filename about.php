@@ -31,12 +31,12 @@ include 'includes/db_connect.php';
         <h2>Meet Our Team</h2>
         <div class="team-container">
             <div class="team-card">
-                <img src="assets/images/team-taha.jpg" alt="Taha Imran">
+                <img src="assets/images/team-taha.png" alt="Taha Imran">
                 <h3>Taha Imran</h3>
                 <p>Co-Founder & Developer</p>
             </div>
             <div class="team-card">
-                <img src="assets/images/team-adeel.jpg" alt="Muhammad Adeel">
+                <img src="assets/images/team-adeel.png" alt="Muhammad Adeel">
                 <h3>Muhammad Adeel</h3>
                 <p>Co-Founder & Marketing</p>
             </div>
