@@ -26,7 +26,7 @@ include 'includes/db_connect.php';
                         <h3>' . $row['title'] . '</h3>
                         <p>Location: ' . $row['location'] . '</p>
                         <p class="price">Rs. ' . number_format($row['price']) . '</p>
-                        <a href="property-detail.php?id=' . $row['id'] . '" class="btn">View Details</a>
+                        <a href="property_details.php?id=' . $row['property_id'] . '" class="btn">View Details</a>
                     </div>';
                 }
             } else {
