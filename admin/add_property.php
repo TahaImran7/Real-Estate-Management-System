@@ -76,10 +76,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <label>Property Type
       <select name="property_type" required>
         <option value="">-- Select Type --</option>
-        <option value="Apartment">Apartment</option>
-        <option value="House">House</option>
-        <option value="Commercial">Commercial</option>
-        <option value="Plot">Plot</option>
+        <option value="Apartments">Apartments</option>
+        <option value="Villas">Villas</option>
+        <option value="Plots">Plots</option>
+        <option value="Offices">Offices</option>
       </select>
     </label>
     <label>Description
