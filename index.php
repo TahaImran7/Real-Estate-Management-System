@@ -6,7 +6,7 @@
   <section class="hero">
     <div class="hero-content">
       <h1>Find Your Dream Home</h1>
-      <p>Explore the best properties available in your city — from cozy apartments to luxurious villas.</p>
+      <p>Explore the best properties available in your city. From cozy apartments to luxurious villas.</p>
       <a href="properties.php" class="btn-primary">Browse Properties</a>
     </div>
   </section>
@@ -39,7 +39,7 @@
     <h2>Featured Listings</h2>
     <div class="property-container">
       <div class="property-card">
-        <img src="assets/images/house1.jpg" alt="House 1">
+        <img src="assets/images/house1.png" alt="House 1">
         <h3>Luxury Villa</h3>
         <p>Karachi • PKR 12,500,000</p>
       </div>
