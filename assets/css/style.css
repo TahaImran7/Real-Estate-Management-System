@@ -254,3 +254,21 @@ footer {
 .admin-dashboard { padding:40px 20px; }
 .stats { display:flex; gap:20px; margin:20px 0; flex-wrap:wrap; }
 .stat-card { background:white; padding:18px; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.06); width:220px; text-align:center; }
+
+
+
+/* Add Property Page */
+form.form-card label { display:block; margin-bottom:10px; }
+form.form-card input, form.form-card select, form.form-card textarea {
+  width:100%; padding:10px; border:1px solid #ccc; border-radius:6px;
+}
+form.form-card button {
+  margin-top:10px;
+  background-color:#0078d4;
+  color:white;
+  padding:10px 16px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+form.form-card button:hover { background-color:#005fa3; }
