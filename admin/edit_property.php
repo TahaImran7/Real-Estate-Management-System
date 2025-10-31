@@ -40,8 +40,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // handle image replacement
     if (!empty($_FILES['image']['name'])) {
-        $targetDir = "../uploads/";
+        
         $fileName = time() . "_" . basename($_FILES['image']['name']);
+        $targetDir = "uploads/$fileame";
         $targetFile = $targetDir . $fileName;
         $fileType = strtolower(pathinfo($targetFile, PATHINFO_EXTENSION));
         $allowed = ['jpg','jpeg','png','gif'];
