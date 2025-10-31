@@ -22,7 +22,7 @@ include 'includes/db_connect.php';
                 while ($row = mysqli_fetch_assoc($result)) {
                     echo '
                     <div class="property-card">
-                        <img src="admin/uploads/' . $row['image'] . '" alt="' . $row['title'] . '">
+                        <img src="uploads/' . $row['image'] . '" alt="' . $row['title'] . '">
                         <h3>' . $row['title'] . '</h3>
                         <p>Location: ' . $row['location'] . '</p>
                         <p class="price">Rs. ' . number_format($row['price']) . '</p>
