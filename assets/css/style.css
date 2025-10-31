@@ -596,3 +596,72 @@ form.form-card button:hover { background-color:#005fa3; }
 .admin-actions .btn {
   margin: 0 10px;
 }
+
+
+
+
+.admin-dashboard form.form-card {
+  width: 100%;
+  max-width: 500px;   /* Adjust form card width */
+  margin: 40px auto;  /* Center horizontally and add top/bottom space */
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  text-align: left;   /* Keep labels/input left-aligned inside card */
+}
+
+.admin-dashboard form.form-card h1,
+.admin-dashboard form.form-card h2 {
+  text-align: center;
+  color: #0078d4;
+  margin-bottom: 20px;
+}
+
+
+
+.admin-dashboard form.form-card label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.admin-dashboard form.form-card input[type="text"],
+.admin-dashboard form.form-card input[type="number"],
+.admin-dashboard form.form-card input[type="file"],
+.admin-dashboard form.form-card select,
+.admin-dashboard form.form-card textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.admin-dashboard form.form-card button.btn-primary {
+  display: block;
+  width: 100%;
+  background-color: #0078d4;
+  color: #fff;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.admin-dashboard form.form-card button.btn-primary:hover {
+  background-color: #005fa3;
+}
+
+.admin-dashboard form.form-card img {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  width: 140px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 6px;
+}
