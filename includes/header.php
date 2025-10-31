@@ -1,5 +1,11 @@
 <?php
 session_start();
+
+// Detect current page path
+$currentPath = $_SERVER['PHP_SELF']; // e.g., /Real_Estate_Management_System/admin/dashboard.php
+
+// Set correct path to CSS
+$cssPath = (strpos($currentPath, '/admin/') !== false) ? '../assets/css/style.css' : 'assets/css/style.css';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -7,7 +13,7 @@ session_start();
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Real Estate Management System</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="<?= $cssPath ?>">
 </head>
 <body>
   <header>
