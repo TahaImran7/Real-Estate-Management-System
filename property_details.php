@@ -27,8 +27,8 @@ include 'includes/header.php';
 <section class="property-detail">
   <div class="detail-container">
     <div class="detail-image">
-      <?php if (!empty($property['image']) && file_exists('admin/uploads/' . $property['image'])): ?>
-        <img src="admin/uploads/<?= htmlspecialchars($property['image']) ?>" alt="<?= htmlspecialchars($property['title']) ?>">
+      <?php if (!empty($property['image']) && file_exists('uploads/' . $property['image'])): ?>
+        <img src="uploads/<?= htmlspecialchars($property['image']) ?>" alt="<?= htmlspecialchars($property['title']) ?>">
       <?php else: ?>
         <img src="assets/img/no-image.png" alt="No Image">
       <?php endif; ?>
