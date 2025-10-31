@@ -272,3 +272,12 @@ form.form-card button {
   cursor:pointer;
 }
 form.form-card button:hover { background-color:#005fa3; }
+
+
+
+
+
+/* admin table buttons */
+.admin-dashboard .btn { background:#0078d4; color:#fff; padding:6px 10px; border-radius:6px; text-decoration:none; display:inline-block; }
+.admin-dashboard .btn:hover { background:#005fa3; }
+.admin-dashboard table th, .admin-dashboard table td { font-size:14px; }
