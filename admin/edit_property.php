@@ -99,7 +99,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <select name="property_type" required>
         <option value="">-- Select Type --</option>
         <?php
-          $types = ['Apartment','House','Commercial','Plot'];
+          $types = ['Apartments','Villas','Plots','Offices'];
           foreach ($types as $t) {
               $sel = ($t === $ptype) ? 'selected' : '';
               echo "<option value=\"$t\" $sel>$t</option>";
