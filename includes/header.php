@@ -25,9 +25,9 @@ $cssPath = (strpos($currentPath, '/admin/') !== false) ? '../assets/css/style.cs
         <li><a href="about.php">About</a></li>
         <li><a href="contact.php">Contact</a></li>
         <?php if(isset($_SESSION['username'])): ?>
-          <li><a href="logout.php" class="btn">Logout</a></li>
+          <li><a href="logout.php" class="btn_log">Logout</a></li>
         <?php else: ?>
-          <li><a href="login.php" class="btn">Login</a></li>
+          <li><a href="login.php" class="btn_log">Login</a></li>
         <?php endif; ?>
       </ul>
     </nav>
