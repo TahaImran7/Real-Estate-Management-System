@@ -41,17 +41,20 @@
       <div class="property-card">
         <img src="assets/images/house1.png" alt="House 1">
         <h3>Luxury Villa</h3>
-        <p>Karachi • PKR 12,500,000</p>
+        <p>Karachi • PKR 12,500,000</p><br>
+        <a href="property_details.php" class="btn-small">View Details</a>
       </div>
       <div class="property-card">
         <img src="assets/images/house2.jpg" alt="House 2">
         <h3>Modern Apartment</h3>
-        <p>Lahore • PKR 7,800,000</p>
+        <p>Lahore • PKR 7,800,000</p><br>
+        <a href="property_details.php" class="btn-small">View Details</a>
       </div>
       <div class="property-card">
         <img src="assets/images/house3.jpg" alt="House 3">
         <h3>Cozy Family Home</h3>
-        <p>Islamabad • PKR 9,200,000</p>
+        <p>Islamabad • PKR 9,200,000</p><br>
+        <a href="property_details.php" class="btn-small">View Details</a>
       </div>
     </div>
   </section>
